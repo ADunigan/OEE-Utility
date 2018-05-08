@@ -201,6 +201,7 @@ namespace OEE_ExcelAddIn_2010
             run_oee[run] = (prod_count - total_defects) / OEE100_Count;
         }
 
+        //Performs statistical analysis on OEE performance
         private void OverallDataAnalysis()
         {
             simtime = Math.Round((DateTime.Now.Subtract(DateTime.MinValue.AddYears(1969)).TotalMilliseconds - msec_start)/1000, 5);
