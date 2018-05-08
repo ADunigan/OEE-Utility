@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEE_Utility", "OEE_Utility\OEE_Utility.csproj", "{2E970732-61D4-4BE4-B435-50A350E19350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEE_Console", "OEE_Console\OEE_Console.csproj", "{193C10A8-ED2C-4DC9-81D1-31F6EBCB2B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEE_WPF_Application", "OEE_WPF_Application\OEE_WPF_Application.csproj", "{D342ABFF-C40D-4C85-8EFC-2C38C8551427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEE_ExcelAddIn_2010", "OEE_ExcelAddIn_2010\OEE_ExcelAddIn_2010.csproj", "{F6E8BEFC-DAA7-4477-8722-91E7945D681D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OEE_Form", "OEE_Form\", "{E0DBE560-27E0-4EF3-B35C-F4E639BE9D80}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55320"
+		Debug.AspNetCompiler.PhysicalPath = "OEE_Form\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55320\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55320"
+		Release.AspNetCompiler.PhysicalPath = "OEE_Form\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55320\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55320"
+		SlnRelativePath = "OEE_Form\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E970732-61D4-4BE4-B435-50A350E19350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E970732-61D4-4BE4-B435-50A350E19350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E970732-61D4-4BE4-B435-50A350E19350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E970732-61D4-4BE4-B435-50A350E19350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193C10A8-ED2C-4DC9-81D1-31F6EBCB2B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193C10A8-ED2C-4DC9-81D1-31F6EBCB2B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193C10A8-ED2C-4DC9-81D1-31F6EBCB2B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193C10A8-ED2C-4DC9-81D1-31F6EBCB2B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D342ABFF-C40D-4C85-8EFC-2C38C8551427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D342ABFF-C40D-4C85-8EFC-2C38C8551427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D342ABFF-C40D-4C85-8EFC-2C38C8551427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D342ABFF-C40D-4C85-8EFC-2C38C8551427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E8BEFC-DAA7-4477-8722-91E7945D681D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E8BEFC-DAA7-4477-8722-91E7945D681D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E8BEFC-DAA7-4477-8722-91E7945D681D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E8BEFC-DAA7-4477-8722-91E7945D681D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DBE560-27E0-4EF3-B35C-F4E639BE9D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DBE560-27E0-4EF3-B35C-F4E639BE9D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DBE560-27E0-4EF3-B35C-F4E639BE9D80}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DBE560-27E0-4EF3-B35C-F4E639BE9D80}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41467D6D-083D-4E12-934E-A2021D3E48FA}
+	EndGlobalSection
+EndGlobal
